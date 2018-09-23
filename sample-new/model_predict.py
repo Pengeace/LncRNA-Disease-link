@@ -1,11 +1,11 @@
-import pandas as pd
-import numpy as np
 from math import sqrt
-from sklearn.metrics import roc_auc_score
-from sklearn.model_selection import StratifiedKFold
 
+import numpy as np
+import pandas as pd
+from sklearn.metrics import roc_auc_score
 
 fold = 5
+calcu_sim = 1
 lncRNA_disease_path = '../data/lncRNA-disease.csv'
 reserved_lncRNA_disease_pairs_path = '../data/data-partition/moved_pairs.txt'
 item_index_path = '../data/item_index.txt'
@@ -14,21 +14,22 @@ data_partition_dir = '../data/data-partition/'
 
 def vector_multiply(A, B):
     my_sum = lambda x, y: x + y
-    return reduce(my_sum, [a*b for a,b in zip(A, B)])
+    return reduce(my_sum, [a * b for a, b in zip(A, B)])
 
-def cosine_similarity(A,B):
+
+def cosine_similarity(A, B):
     t1 = vector_multiply(A, B)
     t2 = sqrt(vector_multiply(A, A))
     t3 = sqrt(vector_multiply(B, B))
-    if t2>0 and t3>0:
-        return t1/(t2*t3)
+    if t2 > 0 and t3 > 0:
+        return t1 / (t2 * t3)
     else:
         return 0
 
 
 def load_train_test_split(path):
-    train_test = [[],[]]
-    f = open(path,'r')
+    train_test = [[], []]
+    f = open(path, 'r')
     flag = 0
     for line in f.readlines():
         line = line.strip()
@@ -37,24 +38,26 @@ def load_train_test_split(path):
         elif 'Test' in line:
             flag = 1
         else:
-            lncRNA, disease, label = [ int(x) for x in line.split()]
+            lncRNA, disease, label = [int(x) for x in line.split()]
             train_test[flag].append([lncRNA, disease, label])
     f.close()
     return train_test[0], train_test[1]
 
+
 def load_reserved_pairs(path):
     reserved_pairs = []
-    with open(path,'r') as f:
-        for line in r:
-            reserved_pairs.dappend([int(x) for x in line.split()])
+    with open(path, 'r') as f:
+        for line in f:
+            reserved_pairs.append([int(x) for x in line.split()])
     return reserved_pairs
+
 
 def load_embedding(path):
     head = False
     num = None
     dim = None
     embeddings = {}
-    with open(path,'r') as f:
+    with open(path, 'r') as f:
         for line in f:
             if head:
                 num, dim = [int(x) for x in line.strip().split()]
@@ -84,10 +87,8 @@ def read_index_file(path):
 
 
 index2name, name2index, item_list = read_index_file(item_index_path)
-diseases = [x[1] for x in item_list if x[2]=='disease']
-lncRNAs = [x[1] for x in item_list if x[2]=='lncRNA']
-
-ll_sim.to_csv(data_partition_dir + 'lncRNA_sim_fold{}.txt'.format(cur_fold))
+diseases = [x[1] for x in item_list if x[2] == 'disease']
+lncRNAs = [x[1] for x in item_list if x[2] == 'lncRNA']
 
 # k-fold cross validation
 
@@ -96,15 +97,16 @@ auc_disease_fold = {}
 reserved_pairs = load_reserved_pairs(reserved_lncRNA_disease_pairs_path)
 for cur_fold in range(fold):
     print("# Fold %d" % cur_fold)
-    train, test = load_train_test_split(data_partition_dir+'partition_fold{}.txt'.format(cur_fold))
+    train, test = load_train_test_split(data_partition_dir + 'partition_fold{}.txt'.format(cur_fold))
     embeddings, node_num, dim = load_embedding(data_partition_dir + "embeddings_fold{}.txt".format(cur_fold))
 
     disease_related_lncRNAs = {}
     for [lncRNA, disease, label] in train + reserved_pairs:
-        if disease not in disease_related_lncRNAs:
-            disease_related_lncRNAs[disease] = []
+        d = index2name[disease]
+        if d not in disease_related_lncRNAs:
+            disease_related_lncRNAs[d] = []
         else:
-            disease_related_lncRNAs[disease].append([index2name[lncRNA], label])
+            disease_related_lncRNAs[d].append([index2name[lncRNA], label])
 
     if calcu_sim:
         ll_sim = pd.DataFrame(np.zeros([len(lncRNAs), len(lncRNAs)]), index=lncRNAs, columns=lncRNAs)
@@ -112,19 +114,18 @@ for cur_fold in range(fold):
         print("Calculating lncRNA-lncRNA similarities...")
         for l1 in lncRNAs:
             for l2 in lncRNAs:
-                if l1==l2:
-                    ll_sim.ix[l1,l2] = 0
+                if l1 == l2:
+                    ll_sim.ix[l1, l2] = 0
                 else:
                     sim = cosine_similarity(embeddings[name2index[l1]], embeddings[name2index[l2]])
                     ll_sim.ix[l1, l2] = sim
                     ll_sim.ix[l2, l1] = sim
-        ll_sim.to_csv(data_partition_dir+'lncRNA_sim{}.txt'.format(cur_fold))
+        ll_sim.to_csv(data_partition_dir + 'lncRNA_sim{}.txt'.format(cur_fold))
     else:
-        ll_sim = pd.read_csv(data_partition_dir+'lncRNA_sim{}.txt'.format(cur_fold))
+        ll_sim = pd.read_csv(data_partition_dir + 'lncRNA_sim{}.txt'.format(cur_fold))
 
     ld = pd.read_csv(lncRNA_disease_path)
     ld = ld.set_index("Name")
-
 
     probas = []
     labels = []
@@ -135,10 +136,10 @@ for cur_fold in range(fold):
         lncRNA, disease, label = pair
         lncRNA = index2name[lncRNA]
         disease = index2name[disease]
-        sims = list(ll_sim[lncRNA,[x[0] for x in disease_related_lncRNAs]])
+        sims = list(ll_sim.ix[lncRNA, [x[0] for x in disease_related_lncRNAs[disease]]])
         sum_sims = sum(sims)
-        labs = list([x[1] for x in disease_related_lncRNAs])
-        pred = (vector_multiply(sims, labs) / sum_sims) if sum_sims>0 else 0.0
+        labs = list([x[1] for x in disease_related_lncRNAs[disease]])
+        pred = (vector_multiply(sims, labs) / sum_sims) if sum_sims > 0 else 0.0
 
         probas.append(pred)
         labels.append(label)
@@ -160,10 +161,10 @@ for cur_fold in range(fold):
 
 print("# AUC for all diseases:")
 print(auc_disease_fold)
-print("AUC fold CV:",np.mean(auc_fold))
+print("AUC fold CV:", np.mean(auc_fold))
 print("# AUC for all diseases in CV:")
 for d in auc_disease_fold:
-    print(d,np.mean(auc_disease_fold[d]))
+    print(d, np.mean(auc_disease_fold[d]))
 
 # AUC in 5 fold
 # [0.9154917976976293, 0.9186329353080193, 0.912639027764002, 0.9112176805252827, 0.9284490649617969]

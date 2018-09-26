@@ -32,11 +32,10 @@ def get_pubmed_hits(disease):
     result_file = result_dir+'./top '+str(top_limit)+' lncRNAs related to '+disease+'_0922.csv'
     disease_data.to_csv(result_file)
 
-completes = ['top 100 lncRNAs related to acute myeloid leukemia.csv', "top 100 lncRNAs related to Alzheimer's disease.csv", 'top 100 lncRNAs related to Angelman syndrome.csv', 'top 100 lncRNAs related to atherosclerosis.csv', 'top 100 lncRNAs related to B-cell lymphoma.csv', 'top 100 lncRNAs related to Beckwith-Wiedemann syndrome.csv', 'top 100 lncRNAs related to bipolar disorder.csv', 'top 100 lncRNAs related to breast cancer.csv', 'top 100 lncRNAs related to colorectal cancer.csv', 'top 100 lncRNAs related to Diabetes.csv', 'top 100 lncRNAs related to epithelial ovarian cancer.csv', 'top 100 lncRNAs related to gastric adenocancer.csv', 'top 100 lncRNAs related to gastric cancer.csv', 'top 100 lncRNAs related to hepatocelluar cancer.csv', 'top 100 lncRNAs related to hepatocellular cancer.csv', "top 100 lncRNAs related to Huntington's disease.csv", 'top 100 lncRNAs related to intracranial aneurism.csv', 'top 100 lncRNAs related to lung cancer.csv', 'top 100 lncRNAs related to malignant pleural mesothelioma.csv', 'top 100 lncRNAs related to meningioma.csv', 'top 100 lncRNAs related to multiple myeloma.csv', 'top 100 lncRNAs related to myocardial infarction.csv', 'top 100 lncRNAs related to neurofibromatosis type 1.csv', 'top 100 lncRNAs related to pancreas cancer.csv', "top 100 lncRNAs related to Parkinson's disease.csv", 'top 100 lncRNAs related to periodontitis.csv', 'top 100 lncRNAs related to pheochromocytoma.csv', 'top 100 lncRNAs related to Pituitary adenoma.csv', 'top 100 lncRNAs related to schizophrenia.csv', 'top 100 lncRNAs related to small-cell lung cancer.csv', 'top 100 lncRNAs related to Stroke.csv', 'top 100 lncRNAs related to testicular cancer.csv', 'top 100 lncRNAs related to Wilms tumor.csv']
 
 
 for disease in diseases:
-    if (disease in lncRNA_disease_link_TBSI.columns) and  ('top 100 lncRNAs related to '+disease+'.csv' not in completes):
+    if (disease in lncRNA_disease_link_TBSI.columns):
         thread = threading.Thread(target=get_pubmed_hits,args=(disease,))
         thread.start()
 

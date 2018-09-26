@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c4dba23-6fda-4210-93fd-0975392dbc47" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sample-new/data-partition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample-new/model_predict_para.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/data-partition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/model_predict_para.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lncRNA-disease-link.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lncRNA-disease-link.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c4dba23-6fda-4210-93fd-0975392dbc47" name="Default" comment="update model predict method">
+      <change afterPath="$PROJECT_DIR$/PMC_hits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubmed_hits_case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUC for diseases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/M-L-D_network.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/create_index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/embedding.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/embeddings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/item_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/lncRNA-disease.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/microRNA-disease.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/microRNA-lncRNA-disease_network.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/microRNA-lncRNA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/microRNA_lncRNA_matrix2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/total_lncRNADisease2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-union/total_microRNADisease2.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pubmed_hits.py" beforeDir="false" afterPath="$PROJECT_DIR$/pubmed_hits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-new/model_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample-new/model_predict.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +27,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lncRNA_disease_link$pubmed_hits_case.coverage" NAME="pubmed_hits_case Coverage Results" MODIFIED="1537956662100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lncRNA_disease_link$PMC_hits.coverage" NAME="PMC_hits Coverage Results" MODIFIED="1537956463569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$data_partition.coverage" NAME="data-partition Coverage Results" MODIFIED="1537627887490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample-new" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$data_partition__1_.coverage" NAME="data-partition (1) Coverage Results" MODIFIED="1537670630730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$model_predict__1_.coverage" NAME="model_predict (1) Coverage Results" MODIFIED="1537614836485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample-new" />
-    <SUITE FILE_PATH="coverage/lncRNA_disease_link$pubmed_hits.coverage" NAME="pubmed_hits Coverage Results" MODIFIED="1537599004547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lncRNA_disease_link$pubmed_hits.coverage" NAME="pubmed_hits Coverage Results" MODIFIED="1537957348822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$model_predict_para__1_.coverage" NAME="model_predict_para (1) Coverage Results" MODIFIED="1537708201214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$model_predict_para.coverage" NAME="model_predict_para Coverage Results" MODIFIED="1537625854474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample-new" />
   </component>
@@ -39,29 +49,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="317" />
-          <entry key="py" value="1033" />
-          <entry key="txt" value="4" />
+          <entry key="Python Console" value="463" />
+          <entry key="py" value="1174" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="1350" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="1637" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="13" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="21" />
-          <entry key="py" value="13" />
-          <entry key="txt" value="3" />
+          <entry key="csv" value="25" />
+          <entry key="py" value="15" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -81,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pubmed_hits.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" column="92" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="92" />
+            <state relative-caret-position="488">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -93,14 +103,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubmed_hits_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PMC_hits.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="42" column="97" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="97" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/model_predict_para.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1099">
-              <caret line="193" column="46" selection-start-line="193" selection-start-column="46" selection-end-line="193" selection-end-column="46" />
+            <state relative-caret-position="295">
+              <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -140,8 +183,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>iso_die</find>
-      <find>microRNA_lncRNA</find>
       <find>367</find>
       <find>'367'</find>
       <find>TUSC7</find>
@@ -170,12 +211,15 @@
       <find>Alzheimer's disease</find>
       <find>prostate cancer</find>
       <find>ovarian cancer</find>
+      <find>breast cancer</find>
+      <find>\\n</find>
     </findStrings>
     <replaceStrings>
       <replace>dt.</replace>
       <replace>pd</replace>
       <replace>isolated_disease</replace>
       <replace>microRNA_lncRNA_path</replace>
+      <replace>\n</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -208,11 +252,14 @@
         <option value="$PROJECT_DIR$/similarity_calculation.py" />
         <option value="$PROJECT_DIR$/sample/model_predict.py" />
         <option value="$PROJECT_DIR$/sample-new/model_predict.py" />
-        <option value="$PROJECT_DIR$/pubmed_hits.py" />
         <option value="$PROJECT_DIR$/sample-new/model_predict_para.py" />
         <option value="$PROJECT_DIR$/sample-new/data-partition.py" />
         <option value="$PROJECT_DIR$/sample/data-partition.py" />
         <option value="$PROJECT_DIR$/sample/model_predict_para.py" />
+        <option value="$PROJECT_DIR$/results.txt" />
+        <option value="$PROJECT_DIR$/PMC_hits.py" />
+        <option value="$PROJECT_DIR$/pubmed_hits_case.py" />
+        <option value="$PROJECT_DIR$/pubmed_hits.py" />
       </list>
     </option>
   </component>
@@ -240,26 +287,6 @@
               <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
               <item name="lncRNA-disease-link" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lncRNA-disease-link" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lncRNA-disease-link" type="462c0819:PsiDirectoryNode" />
-              <item name="data-bef" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lncRNA-disease-link" type="462c0819:PsiDirectoryNode" />
-              <item name="data-union" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lncRNA-disease-link" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -274,11 +301,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PycharmProjects\lncRNA-disease-link" />
       <recent name="C:\Users\admin\PycharmProjects\lncRNA-disease-link\sample" />
       <recent name="C:\Users\admin\PycharmProjects\lncRNA-disease-link\sample-new" />
       <recent name="D:\codes\python\lncRNA-disease-link\sample-new" />
       <recent name="D:\codes\python\lncRNA-disease-link\data-union" />
-      <recent name="D:\codes\python\lncRNA-disease-link\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\codes\python\lncRNA-disease-link\data-union" />
@@ -297,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.model_predict_para (1)">
+  <component name="RunManager" selected="Python.pubmed_hits">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,6 +344,28 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration name="PMC_hits" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lncRNA-disease-link" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PMC_hits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="data-partition (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lncRNA-disease-link" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -331,50 +380,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample/data-partition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="data-partition" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lncRNA-disease-link" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sample-new" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample-new/data-partition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="model_predict (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lncRNA-disease-link" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sample-new" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample-new/model_predict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -405,7 +410,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="model_predict_para" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pubmed_hits" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lncRNA-disease-link" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,12 +418,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sample-new" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample-new/model_predict_para.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pubmed_hits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pubmed_hits_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lncRNA-disease-link" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pubmed_hits_case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -428,19 +455,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.model_predict (1)" />
-      <item itemvalue="Python.model_predict_para" />
-      <item itemvalue="Python.data-partition" />
       <item itemvalue="Python.data-partition (1)" />
       <item itemvalue="Python.model_predict_para (1)" />
+      <item itemvalue="Python.pubmed_hits_case" />
+      <item itemvalue="Python.PMC_hits" />
+      <item itemvalue="Python.pubmed_hits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pubmed_hits" />
+        <item itemvalue="Python.pubmed_hits_case" />
+        <item itemvalue="Python.PMC_hits" />
         <item itemvalue="Python.model_predict_para (1)" />
         <item itemvalue="Python.data-partition (1)" />
-        <item itemvalue="Python.data-partition" />
-        <item itemvalue="Python.model_predict_para" />
-        <item itemvalue="Python.model_predict (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537584137228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update model predict method">
+      <created>1537713895484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537713895484</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -484,20 +518,20 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2510661" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32790446" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79477614" visible="true" weight="0.28773072" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79371" visible="true" weight="0.28121606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287037" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20522387" side_tool="true" visible="true" weight="0.28773072" />
-      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.8976546" weight="0.42453855" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20628998" side_tool="true" visible="true" weight="0.28121606" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.8965885" weight="0.27470142" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.6449893" weight="0.5179153" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49626866" weight="0.16286644" />
       <window_info anchor="right" id="Database" />
@@ -539,40 +573,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update model predict method" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data-bef/item_index.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/item_index.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56007">
-          <caret line="2667" column="23" selection-start-line="2667" selection-start-column="23" selection-end-line="2667" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/lncRNA_disease.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/microRNA-disease.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13617" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/lncRNA-disease.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/data-partition/moved_pairs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13619" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-union/create_index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -638,13 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AUC for diseases.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1914">
-          <caret line="75" selection-start-line="75" selection-end-line="75" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -784,16 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubmed_hits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="92" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create_deepwalk_input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-348">
@@ -816,10 +799,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/model_predict_para.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1099">
-          <caret line="193" column="46" selection-start-line="193" selection-start-column="46" selection-end-line="193" selection-end-column="46" />
+        <state relative-caret-position="295">
+          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PMC_hits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="42" column="97" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubmed_hits_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PMC/top 100 lncRNAs related to gastric cancer.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PMC/top 100 lncRNAs related to Alzheimer's disease.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PMC/top 100 lncRNAs related to gastric adenocancer.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2055" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PMC/top 100 lncRNAs related to Wilms tumor.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubmed_hits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

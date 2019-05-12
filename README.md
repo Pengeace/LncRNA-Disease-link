@@ -5,7 +5,7 @@ Predicting lncRNA-disease associations using network topological similarity base
 ## Input
 
 A heterogeneous tripartite network consists of three types of nodes, lncRNAs, microRNAs and diseases, 
-were constructed from three kinds of bipartite network.
+were constructed from three kinds of bipartite networks.
 
 - lncRNA-disease association network
 - lncRNA-microRNA asscociation network
@@ -18,11 +18,11 @@ generate the feature representation for each biomedical node in the network.
 
 Then the similarity between every two lncRNAs was calculated based on the cosine distance of their feature vectors.
 
-Finally, the association score of lncRNA and disease was calculated by rule based method.
+Finally, the association score of each lncRNA-disease pair was calculated by rule based method.
 
 ## Validation
 
-The relation of predicted lncRNA-disease pair was validated by text mining in [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) 
+The relation of predicted top lncRNA-disease pairs were validated by text mining in [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) 
 and [PubMed Center](https://www.ncbi.nlm.nih.gov/pmc/)(PMC). The whole validation results are in 
 [result](https://github.com/Pengeace/LncRNA-Disease-link/tree/master/results) directory.
 

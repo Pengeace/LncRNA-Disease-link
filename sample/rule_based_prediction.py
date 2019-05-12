@@ -87,11 +87,11 @@ if not os.path.exists(lncRNA_sim_path):
                 ll_sim.ix[l1, l2] = sim
                 ll_sim.ix[l2, l1] = sim
 
-    ll_sim.to_csv(lncRNA_disease_path)
+    ll_sim.to_csv(lncRNA_sim_path)
 
 else:
-    ll_sim = pandas.read_csv(lncRNA_sim_path)
-    ll_sim = ll_sim.set_index('Name')
+    ll_sim = pandas.read_csv(lncRNA_sim_path).set_index('Unnamed: 0')
+
 
 lncRNA_disease_link_TBSI = pandas.DataFrame(np.zeros([len(lncRNAs), len(diseases)]), index=lncRNAs, columns=diseases)
 

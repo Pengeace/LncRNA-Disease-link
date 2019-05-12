@@ -1,8 +1,8 @@
 1. The three original input bipartite networks are:
 
-- lncRNA-disease.csv
-- lncRNA-microRNA.csv
-- microRNA-disease.csv
+- **lncRNA-disease.csv**
+- **lncRNA-microRNA.csv**
+- **microRNA-disease.csv**
 
 2. The **Global_M-L-D_network.txt** and **item_index.txt** are the constructed heterogeneous tripartite network.
 

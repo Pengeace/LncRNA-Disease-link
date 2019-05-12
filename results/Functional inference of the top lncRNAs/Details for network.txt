@@ -1,0 +1,24 @@
+BreasetCancer
+174 checked boxes
+60 nodes in an ABSTRACTED network.
+317 nodes in a GENE LEVEL network.
+
+Alzheimers
+120 checked boxes
+50 nodes in an ABSTRACTED network.
+265 nodes in a GENE LEVEL network.
+
+Huntingtons
+83 checked boxes
+47 nodes in an ABSTRACTED network.
+248 nodes in a GENE LEVEL network.
+
+Pancreas
+144 checked boxes
+66 nodes in an ABSTRACTED network.
+338 nodes in a GENE LEVEL network.
+
+Prostate
+42 checked boxes
+43 nodes in an ABSTRACTED network.
+230 nodes in a GENE LEVEL network.

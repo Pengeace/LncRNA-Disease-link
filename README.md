@@ -2,13 +2,16 @@
 
 Predicting lncRNA-disease associations using network topological similarity based on deep mining heterogeneous networks.
 
+The programs are in Python 2.7. In [sample](https://github.com/Pengeace/LncRNA-Disease-link/tree/master/sample) 
+and [data](https://github.com/Pengeace/LncRNA-Disease-link/tree/master/data) directories, the function of each script and data file is briefly described.
+
 ## Input
 
 A heterogeneous tripartite network consists of three types of nodes, lncRNAs, microRNAs and diseases, 
 were constructed from three kinds of bipartite networks.
 
 - lncRNA-disease association network
-- lncRNA-microRNA asscociation network
+- lncRNA-microRNA association network
 - microRNA-disease associations network
 
 ## Method

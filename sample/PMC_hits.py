@@ -10,14 +10,16 @@ lncRNA_disease_prediction_path = '../data/lncRNA-disease-prediction.csv'
 base_url = 'https://www.ncbi.nlm.nih.gov/pmc/?term='
 
 # https://www.ncbi.nlm.nih.gov/pmc/?term=(Breast+cancer)+AND+(LINC01004)
-# diseases = ['breast cancer']
-diseases = ['Angelman syndrome', 'bipolar disorder', 'periodontitis', 'neurofibromatosis type 1', 'pheochromocytoma',
-            'Beckwith-Wiedemann syndrome', 'meningioma', 'myocardial infarction', 'atherosclerosis', 'Wilms tumor',
-            'schizophrenia', 'gastric adenocancer', 'epithelial ovarian cancer', 'acute myeloid leukemia',
-            'Pituitary adenoma', 'hepatocelluar cancer', 'multiple myeloma', 'intracranial aneurism',
-            'small-cell lung cancer', 'Diabetes', 'malignant pleural mesothelioma']
-# + \
-# diseases = ['lung cancer', 'breast cancer',
+
+# simple test
+diseases = ["breast cancer", "Alzheimer's disease", "prostate cancer"]
+
+# diseases = ['Angelman syndrome', 'bipolar disorder', 'periodontitis', 'neurofibromatosis type 1', 'pheochromocytoma',
+#             'Beckwith-Wiedemann syndrome', 'meningioma', 'myocardial infarction', 'atherosclerosis', 'Wilms tumor',
+#             'schizophrenia', 'gastric adenocancer', 'epithelial ovarian cancer', 'acute myeloid leukemia',
+#             'Pituitary adenoma', 'hepatocelluar cancer', 'multiple myeloma', 'intracranial aneurism',
+#             'small-cell lung cancer', 'Diabetes', 'malignant pleural mesothelioma'] + \
+#             ['lung cancer', 'breast cancer',
 #             'colorectal cancer',
 #             'prostate cancer',
 #             'ovarian cancer',
@@ -32,7 +34,6 @@ diseases = ['Angelman syndrome', 'bipolar disorder', 'periodontitis', 'neurofibr
 #             'hepatocellular cancer']
 
 lncRNA_disease_link_TBSI = pandas.read_csv(lncRNA_disease_prediction_path).set_index('Unnamed: 0')
-lncRNA_disease_link_TBSI.rename(columns={'Unnamed: 0': 'lncRNA'}, inplace=True)
 
 
 def get_pubmed_hits(disease):
@@ -50,10 +51,10 @@ def get_pubmed_hits(disease):
         hit_count = int(soup.find(id='resultcount').attrs['value'])
 
         disease_data.ix[lncRNA, 'PMC-hits'] = hit_count
-        print(lncRNA + disease + ' PMC-hits:' + str(hit_count))
+        print("[" + lncRNA + ", " + disease + "] " + ' PMC-hits:' + str(hit_count))
     result_file = result_dir + disease + ' related top ' + str(top_limit) + ' lncRNAs' + '.csv'
-    disease_data.rename(columns={disease: 'score'}, inplace=True)
-    disease_data.to_csv(result_file)
+    disease_data.rename(columns={disease: 'Score'}, inplace=True)
+    # disease_data.to_csv(result_file, index=True, index_label="LncRNA")
 
 
 for disease in diseases:

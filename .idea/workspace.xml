@@ -1,101 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c4dba23-6fda-4210-93fd-0975392dbc47" name="Default" comment="keep">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lncRNA-disease-link.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lncRNA-disease-link.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c4dba23-6fda-4210-93fd-0975392dbc47" name="Default" comment="Update.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AUC for diseases.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNT/create_deepwalk_input.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNT/create_index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNT/data-union/embedding.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNT/data-union/item_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNT/data-union/lncRNA-disease_network.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNT/data-union/total_lncRNADisease2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNT/disease_disease_similarity.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNT/lncRNA_lncRNA_similarity.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNT/remove_redundant_isolated_items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BNT/similarity_calculation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_deepwalk_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample/deepwalk_training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-bef/item_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-bef/lncRNA_disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-bef/lncRNA_disease_.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-bef/microRNA_disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-bef/microRNA_disease_.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-bef/microRNA_lncRNA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-bef/microRNA_lncRNA_.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/M-L-D_network.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/create_index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/embedding.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/embeddings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/item_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/lncRNA-disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/microRNA-disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/microRNA-lncRNA-disease_network.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/microRNA-lncRNA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/microRNA_lncRNA_matrix2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/total_lncRNADisease2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-union/total_microRNADisease2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/GLD_network_fold0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/GLD_network_fold1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/GLD_network_fold2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/GLD_network_fold3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/GLD_network_fold4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/embeddings_fold0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/embeddings_fold1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/embeddings_fold2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/embeddings_fold3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/embeddings_fold4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/moved_pairs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/partition_fold0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/partition_fold1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/partition_fold2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/partition_fold3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data-partition/partition_fold4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/item_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lncRNA-disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lncRNA_disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lncRNA_disease_.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/microRNA-disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/microRNA-lncRNA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/microRNA_disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/microRNA_disease_.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/microRNA_lncRNA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/microRNA_lncRNA_.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dis_dis2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/disease_disease_similarity.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lncRNA_disease_TBSI.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lncRNA_lncRNA_matrix2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lncRNA_lncRNA_similarity.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microRNA_mircroRNA_matrix2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubmed_hits.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample/Pubmed_hits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remove_redundant_isolated_items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to Alzheimer's disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to B-cell lymphoma.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to Huntington's disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to Parkinson's disease.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to Stroke.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to bipolar disorder.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to breast cancer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to colon cancer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to colorectal cancer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to gastric cancer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to hepatocellular cancer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to lung cancer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to ovarian cancer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to pancreas cancer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to prostate cancer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to testicular cancer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/create_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample/create_index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/find_same_item.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/model_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample/prediction_CV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/network_divide.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/remove_duplications.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/remove_redundant_isolated_items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/similarity_calculation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/Alzheimer's disease related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/Alzheimer's disease related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/Angelman syndrome related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/Angelman syndrome related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/B-cell lymphoma related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/B-cell lymphoma related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/Beckwith-Wiedemann syndrome related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/Beckwith-Wiedemann syndrome related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/Diabetes related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/Diabetes related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/Huntington's disease related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/Huntington's disease related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/Parkinson's disease related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/Parkinson's disease related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/Pituitary adenoma related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/Pituitary adenoma related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/Stroke related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/Stroke related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/Wilms tumor related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/Wilms tumor related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/acute myeloid leukemia related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/acute myeloid leukemia related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/atherosclerosis related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/atherosclerosis related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/bipolar disorder related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/bipolar disorder related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/breast cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/breast cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/colon cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/colon cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/colorectal cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/colorectal cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/epithelial ovarian cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/epithelial ovarian cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/gastric adenocancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/gastric adenocancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/gastric cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/gastric cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/hepatocelluar cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/hepatocelluar cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/hepatocellular cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/hepatocellular cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/intracranial aneurism related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/intracranial aneurism related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/lung cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/lung cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/malignant pleural mesothelioma related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/malignant pleural mesothelioma related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/meningioma related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/meningioma related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/multiple myeloma related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/multiple myeloma related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/myocardial infarction related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/myocardial infarction related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/neurofibromatosis type 1 related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/neurofibromatosis type 1 related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/ovarian cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/ovarian cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/pancreas cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/pancreas cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/periodontitis related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/periodontitis related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/pheochromocytoma related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/pheochromocytoma related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/prostate cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/prostate cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/schizophrenia related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/schizophrenia related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/small-cell lung cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/small-cell lung cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/PMC-validation/testicular cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/PMC-validation/testicular cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/Alzheimer's disease related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/Alzheimer's disease related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/B-cell lymphoma related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/B-cell lymphoma related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/Huntington's disease related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/Huntington's disease related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/Parkinson's disease related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/Parkinson's disease related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/Stroke related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/Stroke related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/bipolar disorder related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/bipolar disorder related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/breast cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/breast cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/colon cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/colon cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/colorectal cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/colorectal cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/gastric cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/gastric cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/hepatocellular cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/hepatocellular cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/lung cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/lung cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/ovarian cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/ovarian cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/pancreas cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/pancreas cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/prostate cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/prostate cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Pubmed-validation/testicular cancer related top 100 lncRNAs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Pubmed-validation/testicular cancer related top 100 lncRNAs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/PMC_hits.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample/PMC_hits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/Pubmed_hits.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample/Pubmed_hits.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,10 +65,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/lncRNA_disease_link$PMC_hits__1_.coverage" NAME="PMC_hits (1) Coverage Results" MODIFIED="1557640215641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
+    <SUITE FILE_PATH="coverage/lncRNA_disease_link$PMC_hits__1_.coverage" NAME="PMC_hits (1) Coverage Results" MODIFIED="1557645113672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$PMC_hits.coverage" NAME="PMC_hits Coverage Results" MODIFIED="1557592357045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$find_same_item.coverage" NAME="find_same_item Coverage Results" MODIFIED="1557636161698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
-    <SUITE FILE_PATH="coverage/lncRNA_disease_link$Pubmed_hits.coverage" NAME="Pubmed_hits Coverage Results" MODIFIED="1557640817315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
+    <SUITE FILE_PATH="coverage/lncRNA_disease_link$Pubmed_hits.coverage" NAME="Pubmed_hits Coverage Results" MODIFIED="1557643552670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$data_partition.coverage" NAME="data-partition Coverage Results" MODIFIED="1557585571409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample-new" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$deepwalk_training.coverage" NAME="deepwalk_training Coverage Results" MODIFIED="1557637182629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$data_partition__1_.coverage" NAME="data-partition (1) Coverage Results" MODIFIED="1557588882762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
@@ -131,56 +92,56 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="24" />
+          <entry key="Python Console" value="71" />
           <entry key="dummy" value="78" />
-          <entry key="py" value="500" />
-          <entry key="txt" value="5" />
+          <entry key="py" value="638" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="83" />
-          <entry key="Python" value="524" />
+          <entry key="PLAIN_TEXT" value="98" />
+          <entry key="Python" value="709" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="csv" value="13" />
-          <entry key="py" value="69" />
+          <entry key="csv" value="20" />
+          <entry key="py" value="78" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="13" />
+          <entry key="CSV" value="20" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="69" />
+          <entry key="Python" value="78" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/deepwalk_training_CV.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sample/PMC_hits.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4988">
-              <caret line="172" selection-start-line="172" selection-end-line="172" />
+            <state relative-caret-position="348">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sample/parallel_prediction_CV.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/Pubmed_hits.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="841">
+              <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -276,6 +237,8 @@
         <option value="$PROJECT_DIR$/sample/deepwalk_training.py" />
         <option value="$PROJECT_DIR$/sample/deep_walk_train_CV.py" />
         <option value="$PROJECT_DIR$/sample/rule_based_prediction.py" />
+        <option value="$PROJECT_DIR$/sample/parallel_prediction_CV.py" />
+        <option value="$PROJECT_DIR$/sample/test.py" />
         <option value="$PROJECT_DIR$/sample/PMC_hits.py" />
         <option value="$PROJECT_DIR$/sample/Pubmed_hits.py" />
       </list>
@@ -304,6 +267,11 @@
             <path>
               <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
               <item name="lncRNA-disease-link" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lncRNA-disease-link" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
@@ -353,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Pubmed_hits">
+  <component name="RunManager" selected="Python.PMC_hits (1)">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -492,8 +460,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Pubmed_hits" />
         <item itemvalue="Python.PMC_hits (1)" />
+        <item itemvalue="Python.Pubmed_hits" />
         <item itemvalue="Python.rule_based_prediction" />
         <item itemvalue="Python.deepwalk_training" />
         <item itemvalue="Python.find_same_item" />
@@ -518,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537584494027</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update.">
+      <created>1557641848425</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557641848425</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update.">
+      <created>1557642205409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557642205409</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -533,19 +515,19 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8821962" visible="true" weight="0.38605618" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.72334754" visible="true" weight="0.38293445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32778355" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.117803834" side_tool="true" weight="0.38605618" />
-      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.6167377" weight="0.30905306" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.41103017" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.27665246" side_tool="true" visible="true" weight="0.38293445" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.89179105" weight="0.2226847" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.74147123" weight="0.41103017" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -591,62 +573,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="keep" />
-    <option name="LAST_COMMIT_MESSAGE" value="keep" />
+    <MESSAGE value="Update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="507" selection-start-line="507" selection-end-line="507" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/sklearn/metrics/ranking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validate/predict.py" />
-    <entry file="file://$PROJECT_DIR$/data-union/microRNA_lncRNA_matrix2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383442">
-          <caret column="5" selection-start-column="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-union/total_lncRNADisease2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3486">
-          <caret line="166" column="8" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-union/total_microRNADisease2.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lncRNA_lncRNA_similarity.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/disease_disease_similarity.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-union/total_microRNADisease2.csv" />
+    <entry file="file://$PROJECT_DIR$/lncRNA_lncRNA_similarity.csv" />
+    <entry file="file://$PROJECT_DIR$/disease_disease_similarity.csv" />
     <entry file="file://$PROJECT_DIR$/sample.py" />
-    <entry file="file://$PROJECT_DIR$/data/microRNA_lncRNA.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-bef/item_index.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/microRNA_lncRNA.csv" />
+    <entry file="file://$PROJECT_DIR$/data-bef/item_index.txt" />
     <entry file="file://$PROJECT_DIR$/data/item_index.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56007">
@@ -654,13 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/lncRNA_disease.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lncRNA_disease.csv" />
     <entry file="file://$PROJECT_DIR$/data/microRNA-disease.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13617" />
@@ -689,157 +621,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/PMC-validation/top 100 lncRNAs related to Beckwith-Wiedemann syndrome.csv">
-      <provider editor-type-id="csv-text-editor" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubmed_hits_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BNT/similarity_calculation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4089">
-          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-union/create_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/remove_duplications.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1496">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample-new/model_predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="170" column="15" selection-start-line="170" selection-start-column="15" selection-end-line="170" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample-new/model_predict_para.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4833">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample-new/data-partition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1609">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remove_redundant_isolated_items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-632">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/remove_redundant_isolated_items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lncRNA_disease_TBSI.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="4670" selection-start-line="3" selection-start-column="4667" selection-end-line="3" selection-end-column="4670" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/PMC-validation/top 100 lncRNAs related to breast cancer.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="174">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/network_divide.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/find_same_item.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results/PMC-validation/top 100 lncRNAs related to Beckwith-Wiedemann syndrome.csv" />
+    <entry file="file://$PROJECT_DIR$/pubmed_hits_case.py" />
+    <entry file="file://$PROJECT_DIR$/BNT/similarity_calculation.py" />
+    <entry file="file://$PROJECT_DIR$/data-union/create_index.py" />
+    <entry file="file://$PROJECT_DIR$/sample/remove_duplications.py" />
+    <entry file="file://$PROJECT_DIR$/sample-new/model_predict.py" />
+    <entry file="file://$PROJECT_DIR$/sample-new/model_predict_para.py" />
+    <entry file="file://$PROJECT_DIR$/sample-new/data-partition.py" />
+    <entry file="file://$PROJECT_DIR$/remove_redundant_isolated_items.py" />
+    <entry file="file://$PROJECT_DIR$/sample/remove_redundant_isolated_items.py" />
+    <entry file="file://$PROJECT_DIR$/lncRNA_disease_TBSI.csv" />
+    <entry file="file://$PROJECT_DIR$/results/PMC-validation/top 100 lncRNAs related to breast cancer.csv" />
+    <entry file="file://$PROJECT_DIR$/sample/network_divide.py" />
+    <entry file="file://$PROJECT_DIR$/sample/find_same_item.py" />
+    <entry file="file://$PROJECT_DIR$/create_index.py" />
     <entry file="file://$PROJECT_DIR$/data/Global_M-L-D_network.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to Stroke.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AUC for diseases.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="57" column="6" selection-start-line="57" selection-end-line="57" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to Stroke.csv" />
+    <entry file="file://$PROJECT_DIR$/AUC for diseases.txt" />
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to acute myeloid leukemia_0922.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/PMC-validation/top 100 lncRNAs related to Alzheimer's disease.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/PMC-validation/top 100 lncRNAs related to acute myeloid leukemia.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results/Pubmed-validation/top 100 lncRNAs related to acute myeloid leukemia_0922.csv" />
+    <entry file="file://$PROJECT_DIR$/results/PMC-validation/top 100 lncRNAs related to Alzheimer's disease.csv" />
+    <entry file="file://$PROJECT_DIR$/results/PMC-validation/top 100 lncRNAs related to acute myeloid leukemia.csv" />
     <entry file="file://$PROJECT_DIR$/sample/prediction_CV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3843">
@@ -850,67 +657,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/rule_based_prediction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="139" column="62" selection-start-line="139" selection-start-column="62" selection-end-line="139" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/PMC-validation/breast cancerrelated top 100 lncRNAs.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/create_index.py">
+    <entry file="file://$PROJECT_DIR$/results.txt" />
+    <entry file="file://$PROJECT_DIR$/sample/data-partition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/deepwalk_training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="-4651">
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/deepwalk_training_CV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4988">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/results/PMC-validation/Beckwith-Wiedemann syndrome related top 100 lncRNAs.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/PMC_hits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="52" column="94" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="94" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/results/Pubmed-validation/colon cancer related top 100 lncRNAs.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/Pubmed_hits.py">
+    <entry file="file://$PROJECT_DIR$/results/PMC-validation/breast cancer related top 5 lncRNAs.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="174">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="45" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -919,10 +691,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/parallel_prediction_CV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="4988">
+          <caret line="172" column="17" lean-forward="true" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/deepwalk_training_CV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4814">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/create_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/deepwalk_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/rule_based_prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="139" column="39" lean-forward="true" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/Pubmed_hits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/PMC_hits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

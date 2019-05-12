@@ -8,7 +8,7 @@ from sklearn.metrics import roc_auc_score
 
 fold = 5
 calcu_sim = 0
-normalize_score = 1
+normalize_score = 0
 lncRNA_disease_path = '../data/lncRNA-disease.csv'
 reserved_lncRNA_disease_pairs_path = '../data/data-partition/moved_pairs.txt'
 item_index_path = '../data/item_index.txt'

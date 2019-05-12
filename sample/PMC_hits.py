@@ -11,27 +11,27 @@ base_url = 'https://www.ncbi.nlm.nih.gov/pmc/?term='
 
 # https://www.ncbi.nlm.nih.gov/pmc/?term=(Breast+cancer)+AND+(LINC01004)
 
-# simple test
-diseases = ["breast cancer", "Alzheimer's disease", "prostate cancer"]
+# # simple test
+# diseases = ["breast cancer", "Alzheimer's disease", "prostate cancer"]
 
-# diseases = ['Angelman syndrome', 'bipolar disorder', 'periodontitis', 'neurofibromatosis type 1', 'pheochromocytoma',
-#             'Beckwith-Wiedemann syndrome', 'meningioma', 'myocardial infarction', 'atherosclerosis', 'Wilms tumor',
-#             'schizophrenia', 'gastric adenocancer', 'epithelial ovarian cancer', 'acute myeloid leukemia',
-#             'Pituitary adenoma', 'hepatocelluar cancer', 'multiple myeloma', 'intracranial aneurism',
-#             'small-cell lung cancer', 'Diabetes', 'malignant pleural mesothelioma'] + \
-#             ['lung cancer', 'breast cancer',
-#             'colorectal cancer',
-#             'prostate cancer',
-#             'ovarian cancer',
-#             "Alzheimer's disease",
-#             'colon cancer', 'gastric cancer',
-#             "Parkinson's disease",
-#             'pancreas cancer',
-#             'testicular cancer',
-#             'B-cell lymphoma', 'Stroke',
-#             "Huntington's disease",
-#             'bipolar disorder',
-#             'hepatocellular cancer']
+diseases = ['Angelman syndrome', 'bipolar disorder', 'periodontitis', 'neurofibromatosis type 1', 'pheochromocytoma',
+            'Beckwith-Wiedemann syndrome', 'meningioma', 'myocardial infarction', 'atherosclerosis', 'Wilms tumor',
+            'schizophrenia', 'gastric adenocancer', 'epithelial ovarian cancer', 'acute myeloid leukemia',
+            'Pituitary adenoma', 'hepatocelluar cancer', 'multiple myeloma', 'intracranial aneurism',
+            'small-cell lung cancer', 'Diabetes', 'malignant pleural mesothelioma'] + \
+           ['lung cancer', 'breast cancer',
+            'colorectal cancer',
+            'prostate cancer',
+            'ovarian cancer',
+            "Alzheimer's disease",
+            'colon cancer', 'gastric cancer',
+            "Parkinson's disease",
+            'pancreas cancer',
+            'testicular cancer',
+            'B-cell lymphoma', 'Stroke',
+            "Huntington's disease",
+            'bipolar disorder',
+            'hepatocellular cancer']
 
 lncRNA_disease_link_TBSI = pandas.read_csv(lncRNA_disease_prediction_path).set_index('Unnamed: 0')
 

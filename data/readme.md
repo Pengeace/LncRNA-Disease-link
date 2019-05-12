@@ -8,6 +8,8 @@
 
 3. The **embeddings.txt** contains the feature vector of each biomedical entity calculated by [DeepWalk](https://github.com/phanein/deepwalk). 
 
-4. The **lncRNA-disease-prediction.csv** contains prediction results.
+4. The **lncRNA_lncRNA_similarity.csv** are the similarity scores between every two lncRNAs based on cosine distance.
 
-5. The 5-fold cross validation associated data are in **data-partition** directory.
+5. The **lncRNA-disease-prediction.csv** contains prediction results.
+
+6. The 5-fold cross validation associated data are in **data-partition** directory.

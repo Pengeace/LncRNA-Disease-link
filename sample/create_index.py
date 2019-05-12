@@ -14,8 +14,6 @@ lncRNAs = list(ld['Name'])
 diseases = list(ld.columns[1:])
 
 print(len(microRNAs),len(lncRNAs),len(diseases))
-# (677, 1831, 281)
-# (676, 1802, 266)
 # (675, 1723, 236)
 
 with open('../data/item_index.txt', 'w') as f:

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c4dba23-6fda-4210-93fd-0975392dbc47" name="Default" comment="Update.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lncRNA-disease.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lncRNA-disease.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,17 +13,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$PMC_hits__1_.coverage" NAME="PMC_hits (1) Coverage Results" MODIFIED="1557645113672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
+    <SUITE FILE_PATH="coverage/lncRNA_disease_link$rule_based_prediction__1_.coverage" NAME="rule_based_prediction (1) Coverage Results" MODIFIED="1557656257887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
+    <SUITE FILE_PATH="coverage/lncRNA_disease_link$data_partition.coverage" NAME="data-partition Coverage Results" MODIFIED="1557585571409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample-new" />
+    <SUITE FILE_PATH="coverage/lncRNA_disease_link$deepwalk_training.coverage" NAME="deepwalk_training Coverage Results" MODIFIED="1557637182629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lncRNA_disease_link$rule_based_prediction.coverage" NAME="rule_based_prediction Coverage Results" MODIFIED="1557637960830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lncRNA_disease_link$model_predict_para.coverage" NAME="model_predict_para Coverage Results" MODIFIED="1557586602935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample-new" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$PMC_hits.coverage" NAME="PMC_hits Coverage Results" MODIFIED="1557592357045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$find_same_item.coverage" NAME="find_same_item Coverage Results" MODIFIED="1557636161698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$Pubmed_hits.coverage" NAME="Pubmed_hits Coverage Results" MODIFIED="1557643552670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
-    <SUITE FILE_PATH="coverage/lncRNA_disease_link$data_partition.coverage" NAME="data-partition Coverage Results" MODIFIED="1557585571409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample-new" />
-    <SUITE FILE_PATH="coverage/lncRNA_disease_link$deepwalk_training.coverage" NAME="deepwalk_training Coverage Results" MODIFIED="1557637182629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$data_partition__1_.coverage" NAME="data-partition (1) Coverage Results" MODIFIED="1557588882762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$similarity_calculation.coverage" NAME="similarity_calculation Coverage Results" MODIFIED="1557589982263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$model_predict__1_.coverage" NAME="model_predict (1) Coverage Results" MODIFIED="1543998146537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample-new" />
-    <SUITE FILE_PATH="coverage/lncRNA_disease_link$rule_based_prediction.coverage" NAME="rule_based_prediction Coverage Results" MODIFIED="1557637960830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lncRNA_disease_link$model_predict_para__1_.coverage" NAME="model_predict_para (1) Coverage Results" MODIFIED="1557590046603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample" />
-    <SUITE FILE_PATH="coverage/lncRNA_disease_link$model_predict_para.coverage" NAME="model_predict_para Coverage Results" MODIFIED="1557586602935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample-new" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -38,7 +40,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="91" />
+          <entry key="Python Console" value="105" />
           <entry key="dummy" value="78" />
           <entry key="md" value="1323" />
           <entry key="py" value="665" />
@@ -49,23 +51,23 @@
         <counts>
           <entry key="Markdown" value="1323" />
           <entry key="PLAIN_TEXT" value="98" />
-          <entry key="Python" value="756" />
+          <entry key="Python" value="770" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="csv" value="34" />
+          <entry key="csv" value="41" />
           <entry key="md" value="2" />
           <entry key="py" value="88" />
-          <entry key="txt" value="10" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="34" />
+          <entry key="CSV" value="41" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="Python" value="88" />
         </counts>
       </usages-collector>
@@ -89,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/sample/PMC_hits.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
-              <caret line="35" column="98" lean-forward="true" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="98" />
+              <caret line="35" column="98" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="98" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -109,21 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample/rule_based_prediction.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
-              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -303,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PMC_hits (1)">
+  <component name="RunManager" selected="Python.rule_based_prediction (1)">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,7 +381,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find_same_item" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rule_based_prediction (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lncRNA-disease-link" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -402,7 +394,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample/find_same_item.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample/rule_based_prediction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -434,19 +426,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.find_same_item" />
       <item itemvalue="Python.deepwalk_training" />
       <item itemvalue="Python.rule_based_prediction" />
       <item itemvalue="Python.PMC_hits (1)" />
       <item itemvalue="Python.Pubmed_hits" />
+      <item itemvalue="Python.rule_based_prediction (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rule_based_prediction (1)" />
         <item itemvalue="Python.PMC_hits (1)" />
         <item itemvalue="Python.Pubmed_hits" />
         <item itemvalue="Python.rule_based_prediction" />
         <item itemvalue="Python.deepwalk_training" />
-        <item itemvalue="Python.find_same_item" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557655201244</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update.">
+      <created>1557655569615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557655569615</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -525,20 +524,20 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14179105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72334754" weight="0.4817898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72228146" visible="true" weight="0.4817898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32778355" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3298647" />
-      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.891258" weight="0.4224766" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.27771854" side_tool="true" visible="true" weight="0.4817898" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.89072496" weight="0.4224766" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.74147123" weight="0.41103017" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946696" visible="true" weight="0.3298647" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946696" weight="0.3298647" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -589,15 +588,6 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/gensim/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34568">
-          <caret line="1196" selection-start-line="1196" selection-end-line="1196" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/PMC-validation/top 100 lncRNAs related to Beckwith-Wiedemann syndrome.csv" />
-    <entry file="file://$PROJECT_DIR$/pubmed_hits_case.py" />
     <entry file="file://$PROJECT_DIR$/BNT/similarity_calculation.py" />
     <entry file="file://$PROJECT_DIR$/data-union/create_index.py" />
     <entry file="file://$PROJECT_DIR$/sample/remove_duplications.py" />
@@ -711,9 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/PMC-validation/acute myeloid leukemia related top 100 lncRNAs.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/PMC-validation/colon cancer related top 100 lncRNAs.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
@@ -740,22 +727,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/microRNA-lncRNA.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/microRNA-disease.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-13617" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/lncRNA_lncRNA_similarity.csv.csv">
       <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/lncRNA-disease.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="LargeFileEditor" />
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -770,25 +743,61 @@
     <entry file="file://$PROJECT_DIR$/sample/PMC_hits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
-          <caret line="35" column="98" lean-forward="true" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="98" />
+          <caret line="35" column="98" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="98" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/rule_based_prediction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="435">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lncRNA-disease.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="LargeFileEditor" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data-partition/embeddings_fold2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/microRNA-lncRNA.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/microRNA-disease.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-13617" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lncRNA-disease-prediction.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/PMC-validation/bipolar disorder related top 100 lncRNAs.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/PMC-validation/acute myeloid leukemia related top 100 lncRNAs.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1102">
+          <caret line="1" column="31" selection-start-column="9" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/rule_based_prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>

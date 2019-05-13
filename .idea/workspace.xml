@@ -41,14 +41,14 @@
         <counts>
           <entry key="Python Console" value="105" />
           <entry key="dummy" value="78" />
-          <entry key="md" value="1323" />
+          <entry key="md" value="1324" />
           <entry key="py" value="665" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1323" />
+          <entry key="Markdown" value="1324" />
           <entry key="PLAIN_TEXT" value="98" />
           <entry key="Python" value="770" />
         </counts>
@@ -59,14 +59,14 @@
           <entry key="csv" value="41" />
           <entry key="md" value="2" />
           <entry key="py" value="88" />
-          <entry key="txt" value="11" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="41" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="Python" value="88" />
         </counts>
       </usages-collector>
@@ -98,19 +98,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="348">
-                <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/AUC for diseases.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="65" column="6" selection-start-line="65" selection-end-line="65" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/rule_based_prediction.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
@@ -158,8 +167,8 @@
       <find>lncRNA_disease_TBSI.csv</find>
       <find>Prostate</find>
       <find>0.8</find>
-      <find>breast</find>
       <find>IRAIN</find>
+      <find>breast</find>
     </findStrings>
     <replaceStrings>
       <replace>dt.</replace>
@@ -212,8 +221,8 @@
         <option value="$PROJECT_DIR$/sample/Pubmed_hits.py" />
         <option value="$PROJECT_DIR$/sample/parallel_prediction_CV.py" />
         <option value="$PROJECT_DIR$/sample/PMC_hits.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sample/rule_based_prediction.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -223,7 +232,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="643" />
     <option name="y" value="120" />
     <option name="width" value="1370" />
@@ -254,6 +263,19 @@
             <path>
               <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
               <item name="lncRNA-disease-link" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="Functional inference of the top lncRNAs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lncRNA-disease-link" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="Functional inference of the top lncRNAs" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lncRNA-disease-link" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lncRNA-disease-link" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -269,17 +291,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\python\lncRNA-disease-link\results" />
       <recent name="D:\code\python\lncRNA-disease-link\result" />
       <recent name="D:\code\python\lncRNA-disease-link\sample" />
       <recent name="D:\codes\python\lncRNA-disease-link\data-union" />
       <recent name="D:\codes\python\lncRNA-disease-link" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\python\lncRNA-disease-link\results" />
       <recent name="D:\code\python\lncRNA-disease-link" />
       <recent name="D:\codes\python\lncRNA-disease-link\data-union" />
       <recent name="D:\codes\python\lncRNA-disease-link\data" />
       <recent name="D:\codes\python\lncRNA-disease-link\" />
-      <recent name="D:\codes\python\lncRNA-disease-link\sample" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -515,7 +538,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557656310114</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update.">
+      <created>1557677320768</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557677320768</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update.">
+      <created>1557725296670</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557725296670</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -528,19 +565,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="643" y="120" width="1370" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23435114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7221374" visible="true" weight="0.23833333" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72228146" visible="true" weight="0.15526602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32778355" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2778626" side_tool="true" visible="true" weight="0.23833333" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.27771854" side_tool="true" visible="true" weight="0.15526602" />
       <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.89072496" weight="0.4224766" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.74147123" weight="0.41103017" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946696" weight="0.3298647" />
@@ -594,7 +632,6 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BNT/similarity_calculation.py" />
     <entry file="file://$PROJECT_DIR$/data-union/create_index.py" />
     <entry file="file://$PROJECT_DIR$/sample/remove_duplications.py" />
     <entry file="file://$PROJECT_DIR$/sample-new/model_predict.py" />
@@ -736,16 +773,6 @@
     <entry file="file://$PROJECT_DIR$/data/lncRNA_lncRNA_similarity.csv.csv">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="348">
-            <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/PMC_hits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -804,6 +831,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="11" column="63" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/AUC for diseases.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="65" column="6" selection-start-line="65" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="348">
+            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

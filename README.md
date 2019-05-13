@@ -27,7 +27,7 @@ Finally, the association score of each lncRNA-disease pair was calculated by rul
 
 The relation of predicted top lncRNA-disease pairs were validated by text mining in [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) 
 and [PubMed Center](https://www.ncbi.nlm.nih.gov/pmc/)(PMC). The whole validation results are in 
-[result](https://github.com/Pengeace/LncRNA-Disease-link/tree/master/results) directory.
+[results](https://github.com/Pengeace/LncRNA-Disease-link/tree/master/results) directory.
 
 Below Table 1 listed the predicted Alzheimer's disease related top 5 lncRNAs and the corresponding
 PMC hit counts. 

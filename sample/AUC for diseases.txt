@@ -1,0 +1,142 @@
+Disease	AUC
+dilated cardiomyopathy	2	1.0
+rhabdomyosarcoma	2	1.0
+adolescent idiopathic scoliosis	2	1.0
+Duchenne muscular dystrophy	2	1.0
+Facioscapulohumeral muscular dystrophy	2	1.0
+Parkinson's disease	5	1.0
+Heart Failure	2	1.0
+testicular cancer	7	0.9996669996669997
+acute myocardial infarction	5	0.9996507566938301
+gastric adenocancer	15	0.9996096799375488
+malignant pleural mesothelioma	11	0.9995751911639762
+psychiatric disease	3	0.9992248062015504
+papillary thyroid cancer	23	0.999156010230179
+schizophrenia	9	0.9990276157137301
+Stroke	3	0.9984496124031008
+psoriasis	3	0.9984496124031007
+Prader-Willi syndrome	6	0.9984469035138808
+acute megakaryoblastic leukemia	3	0.9982558139534884
+Angelman syndrome	4	0.9982547993019197
+AIDS	6	0.9974762182100563
+tongue cancer	4	0.9969458987783596
+hepatocellular cancer	108	0.9968065588808623
+bipolar disorder	2	0.9965136548518303
+Huntington's disease	10	0.996438995913602
+lymphoma	6	0.9959231217239372
+pancreas cancer	28	0.9956805731142013
+dyskeratosis congenita	2	0.9956420685647879
+aging	2	0.9953515398024404
+intracranial aneurism	3	0.9953488372093023
+Esophageal squamous cell cancer	32	0.9949733885274985
+Alzheimer's disease	9	0.9946842992350577
+colon cancer	70	0.9944084348803042
+multiple sclerosis	2	0.9938988959907031
+depression	2	0.9936083672283557
+type 2 diabetes	6	0.9934964084643758
+squamous cell cancer	17	0.9934832080546169
+acute lymphoblastic leukemia	8	0.9932944606413994
+coronary heart disease	2	0.9930273097036607
+chronic lymphocytic leukemia	5	0.9925494761350407
+endometrial cancer	12	0.9922072861874147
+endometriosis	4	0.9921465968586387
+Wilms tumor	5	0.9918509895227009
+renal cell cancer	47	0.9914436601838217
+B-cell lymphoma	3	0.9912790697674418
+cancer	27	0.9908499301187981
+Obesity	3	0.9906976744186047
+neuroblastoma	14	0.9902198445206052
+bladder cancer	26	0.9888717646525543
+prostate cancer	43	0.9884413067552602
+gastric cancer	90	0.9881676532625705
+nasopharyngeal cancer	18	0.9874226132290648
+gallbladder cancer	5	0.9868451688009313
+Silver-Russell syndrome	2	0.9863451481696688
+hepatocelluar cancer	15	0.9861826697892272
+glioblastoma	23	0.984322250639386
+acute myeloid leukemia	8	0.9841836734693877
+cervical cancer	22	0.9839666506333173
+lung cancer	112	0.9834064910880553
+osteosarcoma	21	0.9826534609143305
+melanoma	12	0.9800311708552503
+epithelial ovarian cancer	8	0.978935860058309
+ovarian cancer	21	0.977953108387891
+atherosclerosis	5	0.9772991850989523
+myelodysplastic syndrome	2	0.9750145264381174
+breast cancer	57	0.97484256860639
+esophageal adenocancer	2	0.9706565950029054
+autoimmune disease	2	0.9697850087158628
+multiple myeloma	8	0.9520408163265306
+chronic myeloid leukemia	3	0.950968992248062
+meningioma	3	0.9498062015503875
+Pituitary adenoma	5	0.949592549476135
+periodontitis	2	0.9331783846600814
+neurofibromatosis type 1	2	0.9331783846600814
+Diabetes	5	0.920023282887078
+myocardial infarction	2	0.9154561301568855
+B-cell neoplasms	4	0.9137579988365329
+small-cell lung cancer	2	0.8407902382335851
+Burkitts lymphoma	3	0.812015503875969
+pheochromocytoma	2	0.7234166182452062
+Beckwith-Wiedemann syndrome	2	0.7001743172574085
+acute promyelocytic leukemia	2	0.6382916908773969
+malignant melanoma	3	0.5718992248062015
+coronary artery disease	2	0.4814061592097618
+infertility	2	0.30708890180127835
+promyelocytic leukemia	1	0.12833914053426243
+panic disorder	1	0.10511033681765392
+HCV	1	0.08362369337979092
+acute T-lymphocytic leukemia	1	0.0766550522648084
+Leishmania	1	0.07607433217189319
+polymyositis	1	0.07607433217189319
+DiGeorge syndrome	1	0.06794425087108014
+velocardiofacial syndrome	1	0.06794425087108014
+lymphocytic leukemia	1	0.06678281068524972
+Autism spectrum disorder	1	0.0662020905923345
+pseudohypoparathyroidism type Ib	1	0.062137049941928035
+liver injury	1	0.05168408826945414
+Split Hand/Split Foot malformation disorder	1	0.04529616724738672
+drug abuse	1	0.0441347270615563
+Inclusion body myositis	1	0.04297328687572588
+laryngeal cancer	1	0.03890824622531941
+myopia	1	0.03890824622531941
+Crohn disease	1	0.03658536585365857
+postmenopausal osteoporosis	1	0.03426248548199773
+bone diseases	1	0.03426248548199773
+cardiomyopathy	1	0.03426248548199773
+oesophagus cancer	1	0.025551684088269466
+Neurodevelopmental syndromes associated with the SOX2 locus	1	0.016840882694541204
+basal-like breast cancer	1	0.015679442508710784
+oesophageal adenocancer	1	0.013356562137049943
+membranous nephropathy	1	0.009872241579558683
+retinoblastoma	1	0.009872241579558683
+aortic aneurysm	1	0.008130081300813052
+basal cell cancer	1	0.008130081300813052
+Glaucoma	1	0.008130081300813052
+coronary disease	1	0.008130081300813052
+peripheral artery disease	1	0.008130081300813052
+Hodgkin's lymphoma	1	0.005807200929152101
+diabetic nephropathy	1	0.005807200929152101
+cleft lip	1	0.005807200929152101
+Intrauterine Growth Restriction	1	0.004645760743321681
+amyotrophic lateral sclerosis	1	0.004645760743321681
+frontotemporal lobar degeneration	1	0.004645760743321681
+rheumatoid arthritis	1	0.0023228803716608404
+pre-eclampsia	1	0.0023228803716608404
+gestational trophoblastic diseases	1	0.0023228803716608404
+myeloproliferative polycythaemia vera	1	0.0023228803716608404
+neural tube defects	1	0.0023228803716608404
+medulloblastoma	1	0.0023228803716608404
+adrenocortical cancers	1	0.0023228803716608404
+growth restriction	1	0.0023228803716608404
+trophoblastic tumor	1	0.0023228803716608404
+biparental complete hydatidiform moles	1	0.0023228803716608404
+chronic myeloproliferative disorders	1	0.0023228803716608404
+hematopoiesis	1	0.0023228803716608404
+hyperhomocysteinemia	1	0.0023228803716608404
+sarcoma	1	0.0023228803716608404
+Congenital hyperinsulinism	1	0.0023228803716608404
+gastrointestinal stromal tumor	1	0.0023228803716608404
+Wiedemann-Beckwith syndrome	1	0.0023228803716608404
+hepatoma	1	0.0005807200929152101
+fibrosarcoma	1	0.0

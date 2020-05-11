@@ -8,3 +8,5 @@
 and [PubMed Center](https://www.ncbi.nlm.nih.gov/pmc/)(PMC). They are designed as multi-thread parallel programs.
 
 5. The rest of **deep_walk_training_CV.py**, **prediction_CV.py** and **parallel_prediction_CV.py** are for 5-fold cross validation (CV). The **parallel_prediction_CV.py** is multi-process programmed.
+
+The codes were written and tested using [Pandas](https://pandas.pydata.org/) version 0.23. For the data index manner in Pandas has changed from `.ix[,]` to `.loc[,]` or `iloc[,]` since version 1.0.0, please replace `.ix[,]`s by `.loc[,]`s or degrade your Pandas version if your are using Pandas>=1.0.0.  
